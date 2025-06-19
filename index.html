@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-content">
+            <div class="logo">
+                
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certificates">Certificates</a></li>
+            </ul>
+            <div class="theme-toggle">
+                <i class="fas fa-moon"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="profile-picture">
+                <img src="./assets/profile.jpg" alt="Your Profile Picture">
+            </div>
+            <h1>Sneha Dutt</h1>
+            <p class="subtitle">Computer Science Student & Data Analyst</p>
+            <p class="description">Computer Science graduate with a minor in Accounting, passionate about data analysis, financial modeling, and AI-powered solutions. Experienced in transforming complex datasets into actionable insights using Python, SQL, Power BI, and Excel. Skilled in building interactive dashboards and automation pipelines across finance and healthcare domains.</p>
+            <div class="details">
+                <p><i class="fas fa-map-marker-alt"></i> Jersey City, NJ</p>
+                <p><i class="fas fa-graduation-cap"></i> Graduated May 2025</p>
+            </div>
+            <div class="cta-buttons">
+                <a href="https://www.linkedin.com/in/sneha-dutt/" class="btn primary"><i class="fab fa-linkedin"></i> Linkedin</a>
+                <a href="https://github.com/snehaaa8" target="_blank" class="btn secondary"><i class="fab fa-github"></i> GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>I'm a passionate data analyst and computer science student with a minor in Accounting, specializing in data storytelling, financial modeling, and AI-powered analysis. I enjoy transforming raw datasets into actionable insights using tools like Python, SQL, Power BI, and Excel. </p>
+                <p> When I'm not building dashboards or automation pipelines, I explore new technologies, contribute to real-world projects in healthcare and finance, and continuously sharpen my analytical skills.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2>Skills & Technologies</h2>
+        <p class="section-subtitle">Here are the technologies and tools I work with to bring ideas to life.</p>
+        <div class="skills-grid-container">
+            <div class="skill-category">
+                <h3>Programming & Data Tools</h3>
+                <ul>
+                    <li>Python</li>
+                    <li>SQL</li>
+                    <li>R</li>
+                    <li>Excel</li>
+                    <li>Plotly</li>
+                    <li>Streamlit</li>
+                    <li>PyQt/PySGP</li>
+                    <li>JavaScript</li>
+                    <li>CSS</li>
+                    <li>HTML</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>AI & Machine Learning</h3>
+                <ul>
+                    <li>NLP</li>
+                    <li>Hugging Face</li>
+                    <li>Time Series Forecasting</li>
+                    <li>ARIMA</li>
+                    <li>Data Analysis</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>Financial Analysis</h3>
+                <ul>
+                    <li>DCF Modeling</li>
+                    <li>WACC</li>
+                    <li>Financial Statement Analysis</li>
+                    <li>Valuation</li>
+                    <li>yFinance</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>Project Management</h3>
+                <ul>
+                    <li>Agile Methodology</li>
+                    <li>Sprint Planning</li>
+                    <li>Team Leadership</li>
+                    <li>Stakeholder Management</li>
+                    <li>UI/UX Design</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2>Featured Projects</h2>
+        <p class="section-subtitle">A collection of projects that showcase my skills and experience in web development.</p>
+        <div class="projects-grid">
+            <div class="project-card">
+                 <img src="assets/fraud_detection.png" alt="Fraud Claim Detection Project">
+                 <div class="project-info">
+                    <div class="project-title-wrapper">
+                        <h3>Claims Fraud Detection Dashboard
+                        </h3>
+                        <a href="https://github.com/snehaaa8/Fraud-Claim-Detection" target="_blank" class="project-card-link"><i class="fab fa-github"></i></a>
+                    </div>
+                     <span class="project-year">2025</span>
+                     <p>Built a healthcare fraud detection pipeline using SQL, Python, and Power BI to flag suspicious insurance claims. Identified statistical outliers and repeated billing patterns (e.g., >50% of claims at $147.95 via SDV artifact). Applied window functions and drillthrough dashboards to visualize provider-level risk profiles. </p>
+                     <div class="project-tags">
+                         <span class="tag">SQL</span>
+                         <span class="tag">Python </span>
+                         <span class="tag">Pandas</span>
+                         <span class="tag">Power BI</span>
+                         <span class="tag">SDV</span>
+                         <span class="tag">Data Visualization</span>
+                         <span class="tag">Healthcare Analytics</span>
+                     </div>
+                 </div>
+             </div>
+             <div class="project-card">
+                 <img src="assets/contraceptive_study.png" alt="Contraceptive Use Study">
+                 <div class="project-info">
+                    <div class="project-title-wrapper">
+                        <h3>Contraceptive Use Dashboard (UCI Health Data)</h3>
+                        <a href="https://github.com/snehaaa8/Contraceptive-Use-Study" target="_blank" class="project-card-link"><i class="fab fa-github"></i></a>
+                    </div>
+                     <span class="project-year">2024</span>
+                     <p>Developed an interactive Power BI dashboard analyzing contraceptive choices among Indonesian women using demographic, occupational, and media exposure data. Integrated DAX KPIs and Python preprocessing to uncover insights on fertility, education, and empowerment.</p>
+                     <div class="project-tags">
+                         <span class="tag">Python</span>
+                         <span class="tag">Pandas</span>
+                         <span class="tag">Power BI</span>
+                         <span class="tag">DAX</span>
+                         <span class="tag">Data Visualization</span>
+                         <span class="tag">Public Health Analytics</span>
+                     </div>
+                 </div>
+             </div>
+            <div class="project-card">
+                <img src="assets/SEC_analyzer.png" alt="Financial Statement Analyzer Project">
+                <div class="project-info">
+                    <div class="project-title-wrapper">
+                        <h3>AI Financial Statement Analyzer</h3>
+                        <a href="https://github.com/your-financial-analyzer-repo" target="_blank" class="project-card-link"><i class="fab fa-github"></i></a>
+                    </div>
+                    <span class="project-year">2024</span>
+                    <p> Built an AI-powered Streamlit app that extracts and analyzes SEC 10-K/10-Q filings using NLP techniques and PDF parsers. Transforms unstructured documents into structured insights with interactive dashboards for financial metrics, risk factors, and sentiment analysis.</p>
+                    <div class="project-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">Streamlit</span>
+                        <span class="tag">Plotly</span>
+                        <span class="tag">pdfplumber</span>
+                        <span class="tag">PyPDF2</span>
+                        <span class="tag">Regex/NLP Simulation</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="assets/euro_exchange.png" alt="Euro Exchange Rate Forecasting Project">
+                <div class="project-info">
+                    <div class="project-title-wrapper">
+                        <h3>Euro Exchange Rate Forecasting</h3>
+                        <a href="https://github.com/snehaaa8/euro-exchange-story" target="_blank" class="project-card-link"><i class="fab fa-github"></i></a>
+                    </div>
+                    <span class="project-year">2025</span>
+                    <p> Analyzed the EUR/USD trend from 2019 to 2025 using ECB XML data, highlighting the impact of COVID-19, inflation, and policy shifts. Created an interactive Plotly visualization with ARIMA-based forecasting and annotated macroeconomic events for narrative insight.</p>
+                    <div class="project-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">Pandas</span>
+                        <span class="tag">Plotly</span>
+                        <span class="tag">ARIMA</span>
+                        <span class="tag">Financial Modeling</span>
+                        <span class="tag">Time Series</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="assets/dcf_adobe.png" alt="Adobe Inc. Valuation Analysis Project">
+                <div class="project-info">
+                    <div class="project-title-wrapper">
+                        <h3>Adobe Inc. Valuation Analysis</h3>
+                        <a href="https://github.com/snehaaa8/adobe-valuation-dcf" target="_blank" class="project-card-link"><i class="fab fa-github"></i></a>
+                    </div>
+                    <span class="project-year">2025</span>
+                    <p>Performed DCF and Comparable Company valuation for Adobe Inc. using Python and Excel. Automated data retrieval via yFinance and built interactive Plotly dashboards to visualize free cash flows, WACC, risk, and market multiples. Determined a ~63% overvaluation vs intrinsic value.</p>
+                    <div class="project-tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">Pandas</span>
+                        <span class="tag">Plotly</span>
+                        <span class="tag">NumPy</span>
+                        <span class="tag">Excel</span>
+                        <span class="tag">yFinance</span>
+                        <span class="tag">DCF Modeling</span>
+                        <span class="tag">Financial Analysis</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="assets/fandango.png" alt="Fandango Project">
+                <div class="project-info">
+                   <div class="project-title-wrapper">
+                       <h3>Fandango Movie Ratings Analysis</h3>
+                       <a href="https://github.com/snehaaa8/fandango-ratings-analysis target="_blank" class="project-card-link"><i class="fab fa-github"></i></a>
+                   </div>
+                    <span class="project-year">2025</span>
+                    <p>Conducted an R-based exploratory analysis to examine bias in Fandango's movie ratings before and after 2015 media criticism. Compared ratings from IMDb, Metacritic, and Rotten Tomatoes using box plots, correlation heatmaps, and distribution visualizations. Highlighted inflated scoring and platform inconsistencies.</p>
+                    <div class="project-tags">
+                        <span class="tag">R</span>
+                        <span class="tag">ggplot2</span>
+                        <span class="tag">dplyr</span>
+                        <span class="tag">Data Visualization</span>
+                        <span class="tag">Exploratory Data Analysis (EDA)</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="assets/covid_dashboard.png" alt="Covid19 Dashboard">
+                <div class="project-info">
+                   <div class="project-title-wrapper">
+                       <h3>Global COVID-19 Vaccination Dashboard</h3>
+                       <a href="https://github.com/snehaaa8/covid19-vaccination-dashboard" target="_blank" class="project-card-link"><i class="fab fa-github"></i></a>
+                   </div>
+                    <span class="project-year">2024</span>
+                    <p>Designed a Power BI dashboard using data from Our World in Data and Kaggle to track global COVID-19 vaccination trends by country, region, and age group. Used Python for preprocessing and DAX for KPIs like booster uptake and elderly coverage. Highlighted disparities across income levels and their impact on public health outcomes. </p>
+                    <div class="project-tags">
+                        <span class="tag">Python</span>
+                         <span class="tag">Pandas</span>
+                         <span class="tag">Power BI</span>
+                         <span class="tag">DAX</span>
+                         <span class="tag">Excel</span>
+                         <span class="tag">Data Visualization</span>
+                         <span class="tag">Public Health Analytics</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="https://via.placeholder.com/300x200" alt="RealtorAI Project">
+                <div class="project-info">
+                    <div class="project-title-wrapper">
+                        <h3>RealtorAI - AI-Powered Real Estate Assistant</h3>
+                        <a href="https://github.com/your-realtorai-repo" target="_blank" class="project-card-link"><i class="fab fa-github"></i></a>
+                    </div>
+                    <span class="project-year">2024</span>
+                    <p>Led a 4-member team using Agile methodology to develop an AI-powered real estate platform. Designed user-friendly dashboards that reduced search time by 30% and achieved 4.5/5 satisfaction score from 50+ beta testers.</p>
+                    <div class="project-tags">
+                        <span class="tag">Project Management</span>
+                        <span class="tag">UI/UX Design</span>
+                        <span class="tag">Agile</span>
+                        <span class="tag">User Research</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificates & Credentials Section -->
+    <section id="certificates" class="certificates">
+        <h2>Certificates & Credentials</h2>
+        <p class="section-subtitle">Professional certifications that validate my skills and expertise in various technologies.</p>
+        <div class="certificates-grid">
+            <div class="certificate-card">
+                <img src="assets/BFF_bloomberg.png" alt="Bloomberg">
+                <div class="certificate-info">
+                    <h3>Business Finance Fundamentals</h3>
+                    <p>Bloomberg - June 2025</p>
+                    <a href="https://portal.bloombergforeducation.com/certificates/7VxetPq8gqKFxLnCEtnT6SBz" target="_blank" class="certificate-card-link"><i class="fas fa-file-pdf"></i></a>
+                </div>
+            </div>
+            <div class="certificate-card">
+                <img src="assets/AI Business Fundamentals.png" alt="DataCamp">
+                <div class="certificate-info">
+                    <h3>AI Business Fundamentals</h3>
+                    <p>DataCamp - May 2025</p>
+                    <a href="certificates/AI Business Fundamentals.pdf" target="_blank" class="certificate-card-link"><i class="fas fa-file-pdf"></i></a>
+                </div>
+            </div>
+            <div class="certificate-card">
+                <img src="assets/AI Fundamentals.png" alt="DataCamp">
+                <div class="certificate-info">
+                    <h3>AI Fundamentals</h3>
+                    <p>DataCamp - May 2025</p>
+                    <a href="certificates/AI FUNDAMENTALS.pdf" target="_blank" class="certificate-card-link"><i class="fas fa-file-pdf"></i></a>
+                </div>
+            </div>
+            <div class="certificate-card">
+                 <img src="assets/Data Analyst in PowerBI.png" alt="Data Analyst in Power BI">
+                 <div class="certificate-info">
+                     <h3>Data Analyst in Power BI</h3>
+                     <p>DataCamp - May 2025</p>
+                     <a href="certificates/Data Analyst in Power BI.pdf" target="_blank" class="certificate-card-link"><i class="fas fa-file-pdf"></i></a>
+                 </div>
+             </div>
+            <div class="certificate-card">
+                 <img src="assets/Data Literacy.png" alt="DataCamp">
+                 <div class="certificate-info">
+                     <h3>Data Literacy</h3>
+                     <p>DataCamp - May 2025</p>
+                     <a href="certificates/DATA LITERACY.pdf" target="_blank" class="certificate-card-link"><i class="fas fa-file-pdf"></i></a>
+                 </div>
+             </div>
+            <div class="certificate-card">
+                 <img src="assets/Data Literacy Professional.png" alt="DataCamp">
+                 <div class="certificate-info">
+                     <h3>Data Literacy Professional</h3>
+                     <p>DataCamp - May 2025</p>
+                     <a href="certificates/Data Literacy Professional.pdf" target="_blank" class="certificate-card-link"><i class="fas fa-file-pdf"></i></a>
+                 </div>
+             </div>
+            <div class="certificate-card">
+                <img src="assets/Associate Data Analyst.png" alt="DataCamp">
+                <div class="certificate-info">
+                    <h3>Associate Data Analyst</h3>
+                    <p>DataCamp - May 2025</p>
+                    <a href="certificates/ASSOCIATE DATA ANALYST.pdf" target="_blank" class="certificate-card-link"><i class="fas fa-file-pdf"></i></a>
+                </div>
+            </div>
+            <div class="certificate-card">
+                 <img src="assets/SQL Associate.png" alt="SQL Associate">
+                 <div class="certificate-info">
+                     <h3>SQL Associate</h3>
+                     <p>DataCamp - May 2025</p>
+                     <a href="certificates/SQL ASSOCIATE.pdf" target="_blank" class="certificate-card-link"><i class="fas fa-file-pdf"></i></a>
+                 </div>
+             </div>
+            <div class="certificate-card">
+                <img src="assets/Associate Data Analyst in SQL.png" alt="Associate Data Analyst in SQL">
+                <div class="certificate-info">
+                    <h3>Associate Data Analyst in SQL</h3>
+                    <p>DataCamp - May 2025</p>
+                    <a href="certificates/Associate Data Analyst in SQL.pdf" target="_blank" class="certificate-card-link"><i class="fas fa-file-pdf"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="contact-content">
+            <p> Get in Touch! </p>
+            <div class="social-links">
+                <a href="https://github.com/snehaaa8" class="social-link" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/sneha-dutt/" class="social-link" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Sneha Dutt.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
